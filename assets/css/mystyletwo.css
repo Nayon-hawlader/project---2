@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .content {
+    max-width: none;
+    margin: auto;
+  }
+
+
+
+
+.first{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  height: 500px;
+}
+.second-part{
+    border-radius: 50%;
+    background: #73AD21;
+    padding: 20px;
+    width:100%;
+    height: 400px;
+    margin-top:0px;
+}
+.second-part img{
+    float: right;
+    height: 510px;
+    width: 35%;
+    margin-top: 0px;
+    padding-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.row-one{
+   
+        background-image: url('image/camille-brodard-VxAwTeiqDao-unsplash.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%!important;
+        height: 500px;
+        background-size: 100% 100%;
+        margin-left: 0px!important;
+    
+    
+}
+.media{
+  height: auto;
+  z-index: 2;
+  margin-top: -100px;
+  
+}
+.media-one{
+  height: auto;
+  box-shadow: 0px 10px 10px 0px #979191;
+  background-color: #fff;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 60%
+
+}
+
+
+
+
+.card{
+  text-align: center;
+  background-color: #fff0;
+  border: 0px solid rgba(0,0,0,.125);
+
+} 
+
+
+.card img{
+margin: auto;
+height: 200px;
+width: 200px;
+border-radius: 50% !important;
+border: 2px dashed rgb(209, 81, 129);
+padding: 10px;
+}
+
+.card-group{
+  margin-top: -70px;
+}
+
+@media screen and (max-width:574px) {
+ .media-one{
+  border-top-right-radius: 0%;
+  border-top-left-radius: 0%
+ }
+ .card-group{
+   margin-top: -105px;
+ }
+
+  
+}
+
+@media screen and (max-width:250px) {
+  .media-one{
+   border-top-right-radius: 0%;
+   border-top-left-radius: 0%
+  }
+  .card-group{
+    margin-top: -55px;
+  }
+  .my-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    border: 2px dashed rgb(209, 81, 129);
+    padding: 10px;
+
+  }
+
+   
+ }
+
+
+
+.navbar {
+    width: 100%;
+    background-color: rgb(90 173 82);   
+    overflow: auto;
+    display: block;
+    float: left;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(83, 70, 70);
+  }
+  
+  .active {
+    background-color:rgb(209, 81, 129);;
+  }
+
+  
+  .left a {
+    float: right;
+    padding: 12px;
+    color: rgb(246, 243, 243);
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+/* welcome */
+.welcome-row{
+  margin:auto;
+  text-align: center;
+  width: 70%;
+  margin-top: 100px;
+}
+
+.welcome-row h2{
+  color:rgb(90 173 82) ;
+}
+/* welcome end */
+
+/* section */
+
+.section-header{
+  margin-top: 100px;
+  text-align: center;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.btn{
+  background-color:rgb(90 173 82) ;
+}
+
+.col-3 img{
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+.row-col{
+  margin-top: 90px;
+}
+
+@media screen and (max-width:575px){
+  .col-3{
+   max-width: 100%;
+   flex: 100%;
+  }
+}
+@media screen and (max-width:991px)and (min-width:576px){
+  .col-3{
+   max-width: 50%;
+   flex: 100%;
+  }
+}
+
+
+
+
+
+
+.footer{
+  height: auto;
+  width: 100%;
+  background: rgb(83, 70, 70);
+  color:blue;
+}
+
+.footer-one{
+
+  background:rgb(15, 231, 213);
+}
+.row-three{
+
+   background: rgb(90 173 82);; 
+   padding-top: 30px;
+   margin-top: auto;
+}
+
+
+.project{
+  height: auto;
+  margin-top: 100px;
+}
+
+.haveAproject{
+  background-image: -webkit-linear-gradient(0deg, #6aa592f2 0%, #40c07ff0 100%)!important;
+}
+
+.row-four{
+  background: whitesmoke;
+  height: auto;
+  width:100% !important;
+  margin: auto;
+  box-shadow: 0px 10px 15px 0px #979191;
+}
+
+.btn-ans {
+  background: #1bedd7;;
+  position: relative;
+  color: #7b40c0;
+  width: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width:1400px)and (min-width:1000px){
+  .row-four{
+    height: 300px;
+  }
+}
